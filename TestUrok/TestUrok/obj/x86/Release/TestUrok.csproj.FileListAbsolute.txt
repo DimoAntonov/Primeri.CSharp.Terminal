@@ -1,0 +1,5 @@
+E:\prog\primeri.csharp.terminal\TestUrok\TestUrok\bin\Release\TestUrok.exe
+E:\prog\primeri.csharp.terminal\TestUrok\TestUrok\bin\Release\TestUrok.pdb
+E:\prog\primeri.csharp.terminal\TestUrok\TestUrok\obj\x86\Release\TestUrok.csprojResolveAssemblyReference.cache
+E:\prog\primeri.csharp.terminal\TestUrok\TestUrok\obj\x86\Release\TestUrok.exe
+E:\prog\primeri.csharp.terminal\TestUrok\TestUrok\obj\x86\Release\TestUrok.pdb
