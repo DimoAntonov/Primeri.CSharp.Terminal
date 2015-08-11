@@ -10,6 +10,13 @@ namespace Modul02
 
 			int a=0,b=0;
 			int sum=0;
+			string program_name = "Модул 2 Програма 1";
+			string program_version = "1.0";
+
+			//Данни за програма
+
+			Console.WriteLine (program_name);
+			Console.WriteLine ("Версия: " + program_version + "\n\n");
 
 			//Събиране на числа
 
