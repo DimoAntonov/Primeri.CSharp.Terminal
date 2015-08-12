@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul02", "Modul02\Modul02.csproj", "{7FE6C09B-5121-43B9-91CC-A79AB32DA0E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadFromCommandLine", "ReadFromCommandLine\ReadFromCommandLine.csproj", "{F037FC2A-3AF5-4C89-8416-17D7B4D5221B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{7FE6C09B-5121-43B9-91CC-A79AB32DA0E1}.Debug|x86.Build.0 = Debug|x86
 		{7FE6C09B-5121-43B9-91CC-A79AB32DA0E1}.Release|x86.ActiveCfg = Release|x86
 		{7FE6C09B-5121-43B9-91CC-A79AB32DA0E1}.Release|x86.Build.0 = Release|x86
+		{F037FC2A-3AF5-4C89-8416-17D7B4D5221B}.Debug|x86.ActiveCfg = Debug|x86
+		{F037FC2A-3AF5-4C89-8416-17D7B4D5221B}.Debug|x86.Build.0 = Debug|x86
+		{F037FC2A-3AF5-4C89-8416-17D7B4D5221B}.Release|x86.ActiveCfg = Release|x86
+		{F037FC2A-3AF5-4C89-8416-17D7B4D5221B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
