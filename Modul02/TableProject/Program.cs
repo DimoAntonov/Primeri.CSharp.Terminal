@@ -6,16 +6,30 @@ namespace TableProject
 	{
 		public static void Main (string[] args)
 		{
-			string[] row = new string[3];
-			row [0] = "Ред 1";
-			row [1] = "Ред 2";
-			row [2] = "Ред 3";
-			Console.WriteLine ("Масив Row: " + row [0] + "," + row [1] + "," + row [2] + "\n");
+			// Definirane na tablica		
+			string[,] table = new string[3, 3];
 
-			string[] parse = "1,2,3,4,5,6,7,8,9".Split (',');
-			Console.WriteLine ("Броят на елементите на масива са:\n" + "1,2,3,4,5,6,7,8,9\n\ne:" + parse.Length);
-			string list1 = string.Join (";", parse);
-			Console.WriteLine ("Новият стринг е:\n\n" + list1 + "\n\n");
+			//Definirane na purvi red
+			table[0,0]="Ivan";table[0,1]="Petrov";table[0,2]="28";
+
+			//Definirane na vtori red
+			table[1,0]="Simeon";table[1,1]="Ivanov";table[1,2]="25";
+
+			//Pechat
+			Console.Write("Koi red iskate da vidite:");
+			int ind = Convert.ToInt32 (Console.ReadLine ())-1;
+			Console.WriteLine ((table [ind, 0]) [0] + ". " + table [ind, 1] + ", " + table [ind, 2]);
+
 		}
 	}
 }
+//			string[] row = new string[3];
+//			row [0] = "Ред 1";
+//			row [1] = "Ред 2";
+//			row [2] = "Ред 3";
+//			Console.WriteLine ("Масив Row: " + row [0] + "," + row [1] + "," + row [2] + "\n");
+//
+//			string[] parse = "1,2,3,4,5,6,7,8,9".Split (',');
+//			Console.WriteLine ("Броят на елементите на масива са:\n" + "1,2,3,4,5,6,7,8,9\n\ne:" + parse.Length);
+//			string list1 = string.Join (";", parse);
+//			Console.WriteLine ("Новият стринг е:\n\n" + list1 + "\n\n");
