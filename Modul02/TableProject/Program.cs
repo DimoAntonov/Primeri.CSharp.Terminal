@@ -4,21 +4,22 @@ namespace TableProject
 {
 	class MainClass
 	{
+		enum ti{ime=0,Familiq,Godini};
 		public static void Main (string[] args)
 		{
 			// Definirane na tablica		
 			string[,] table = new string[3, 3];
 
 			//Definirane na purvi red
-			table[0,0]="Ivan";table[0,1]="Petrov";table[0,2]="28";
+			table[0,(int)ti.ime]="Ivan";table[0,(int)ti.Familiq]="Petrov";table[0,(int)ti.Godini]="28";
 
 			//Definirane na vtori red
-			table[1,0]="Simeon";table[1,1]="Ivanov";table[1,2]="25";
+			table[1,(int)ti.ime]="Simeon";table[1,(int)ti.Familiq]="Ivanov";table[1,(int)ti.Godini]="25";
 
 			//Pechat
 			Console.Write("Koi red iskate da vidite:");
 			int ind = Convert.ToInt32 (Console.ReadLine ())-1;
-			Console.WriteLine ((table [ind, 0]) [0] + ". " + table [ind, 1] + ", " + table [ind, 2]);
+			Console.WriteLine ((table [ind,(int) ti.ime]) [0] + ". " + table [ind,(int) ti.Familiq] + ", " + table [ind,(int) ti.Godini]);
 
 		}
 	}
