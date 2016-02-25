@@ -1,0 +1,5 @@
+E:\prog\primeri.csharp.terminal\Modul03\BoolExplore\obj\x86\Debug\BoolExplore.csprojResolveAssemblyReference.cache
+E:\prog\primeri.csharp.terminal\Modul03\BoolExplore\bin\Debug\BoolExplore.exe
+E:\prog\primeri.csharp.terminal\Modul03\BoolExplore\bin\Debug\BoolExplore.pdb
+E:\prog\primeri.csharp.terminal\Modul03\BoolExplore\obj\x86\Debug\BoolExplore.exe
+E:\prog\primeri.csharp.terminal\Modul03\BoolExplore\obj\x86\Debug\BoolExplore.pdb
