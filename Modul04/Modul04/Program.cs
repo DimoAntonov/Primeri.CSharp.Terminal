@@ -18,16 +18,28 @@ namespace Modul04
 
 			Console.WriteLine ("Име".PadRight(12) + "Фамилия".PadRight(12)+"Години".PadRight(12));
 			Console.WriteLine ("=================================================");
-			for (int i=0;i<_table.Length/3;i++)
+
+			//Пример с FOR
+//			for (int i=0;i<_table.Length/3;i++)
+//			{
+//				for (int j = 0; j < 3; j++) 
+//				{
+//					Console.Write (_table [i, j].PadRight(12));
+//				}
+//				Console.WriteLine();
+//				//код на цикъла
+//				//Console.WriteLine (_table[i]);
+//
+//			}
+			// Пример с While
+			int i=0;
+			while(i<_table.Length /3)
 			{
-				for (int j = 0; j < 3; j++) 
-				{
-					Console.Write (_table [i, j].PadRight(12));
-				}
-				Console.WriteLine();
-				//код на цикъла
-				//Console.WriteLine (_table[i]);
-			}
+				
+				Console.WriteLine(_table[i,0].PadRight(12) + _table[i,1].PadRight(12)+_table[i,2].PadRight(12));
+				i++;
 		}
+		
 	}
+}
 }
