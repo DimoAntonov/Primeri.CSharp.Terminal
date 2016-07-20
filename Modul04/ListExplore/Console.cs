@@ -1,0 +1,6 @@
+﻿namespace ListExplore
+{
+	class Console
+	{
+	}
+}
